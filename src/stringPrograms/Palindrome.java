@@ -17,7 +17,7 @@ public class Palindrome {
         for (int i = inputToChars.length-1; i>=0; i--){
 
             //without string builder
-                reversedString = reversedString + String.valueOf(inputToChars[i]);
+                reversedString = reversedString + inputToChars[i];
 
             //using StringBuilder
                 //reversedString.append(String.valueOf(inputToChars[i]));
