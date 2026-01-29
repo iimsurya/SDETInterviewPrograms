@@ -4,7 +4,7 @@ public class SecondLargest {
 
     public static void main(String[] args) {
 
-        int[] input = {10,2};
+        int[] input = {10,2,11,2,3,5,6,1};
 
 
         if(input == null || input.length <2){
