@@ -12,6 +12,11 @@ public class SecondLargest {
             return;
         }
 
+        //create two variables "largest" and "secondlargest" assign them Integer.MIN_Value, iterate using for each loop -> write
+        //if condition to check num > largest -> assign largest value to second largest and num to largest
+        //in else if write a condition to check if the number is smaller than largest and larger than second largest
+        //assign them to second largest
+
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
 

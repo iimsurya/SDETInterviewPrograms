@@ -13,6 +13,10 @@ public class LargestAndSmallestNumber {
             return;
         }
 
+        //Create two variable and assign 0 index value, then iterate using for loop and write an if condition
+        //to check if iterated value is greater than or less than max and min. if it is greater than max
+        //assign that value to max, if it is lesser than min assign that value to min.
+
         int min = input[0];
         int max = input[0];
 

@@ -17,9 +17,10 @@ public class FindDuplicateChars {
 
             for (int j = i+1; j < inputToChar.length; j++) {
 
-                if(inputToChar[i] == inputToChar[j])
+                if(inputToChar[i] == inputToChar[j]) {
                     System.out.println(inputToChar[i]);
-                break;
+                    break;
+                }
             }
 
 

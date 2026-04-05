@@ -1,7 +1,7 @@
-package stringPrograms;
+import java.awt.desktop.SystemSleepEvent;
 import java.util.ArrayList;
 
-public class CountOccurrenceOfChars {
+public class Practice {
 
     public static void main(String[] args) {
 
@@ -25,7 +25,7 @@ public class CountOccurrenceOfChars {
 
                         count++;
                     }
-                }
+            }
 
                 System.out.println(inputChars[i] + " : " + count);
             }
