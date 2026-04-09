@@ -14,7 +14,7 @@ public class SwapTwoNumbers {
 
          numberOne = numberTwo + numberOne; //2+1 = 3
          numberTwo =  numberOne - numberTwo; //3-2 = 1
-         numberOne = numberOne - numberTwo; //2-1 = 2
+         numberOne = numberOne - numberTwo; //3-1 = 2
 
         System.out.println("Swapped First number : " + numberOne +
                 " Swapped Second number : " + numberTwo);
