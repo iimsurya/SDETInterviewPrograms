@@ -5,7 +5,7 @@ public class NonRepeatingChar {
     public static void main(String[] args) {
 
 
-        String input = "automation";
+        String input = "google";
 
         if(input == null || input == ""){
             System.out.println("Give valid input");
@@ -20,10 +20,9 @@ public class NonRepeatingChar {
                 System.out.println("First non repeating char in given string is :" + inputNormalized.charAt(i));
                 return;
             }
-            else
-                System.out.println("No non repeating char in given string");
 
         }
+        System.out.println("No non repeating char in given string");
 
     }
 }

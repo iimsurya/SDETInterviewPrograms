@@ -11,7 +11,7 @@ public class Palindrome {
         String input = scanner.next();
 
         char[] inputToChars = input.toCharArray();
-        StringBuilder reversedStringBuild = new StringBuilder();
+        //StringBuilder reversedStringBuild = new StringBuilder();
         String reversedString = "";
 
         for (int i = inputToChars.length-1; i>=0; i--){

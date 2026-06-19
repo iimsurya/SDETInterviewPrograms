@@ -1,6 +1,7 @@
 package arrayPrograms;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 public class SortArray {
 
@@ -25,6 +26,11 @@ public class SortArray {
         }
 
         Arrays.stream(input).forEach(System.out::println);
+        // In reverse order (descending - largest to smallest)
+        //Arrays.stream(input).boxed().sorted(Collections.reverseOrder()).forEach(System.out::println);
+
+        // Or in ascending order (smallest to largest)
+        //Arrays.stream(input).sorted().forEach(System.out::println);
 
     }
 }
