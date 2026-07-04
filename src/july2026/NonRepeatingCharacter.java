@@ -4,10 +4,10 @@ public class NonRepeatingCharacter {
 
     public static void main(String[] args) {
 
-        String input = "aabccb";
+        String input = "akadbcucb";
 
         input = input.toLowerCase().trim().replace(" ","");
-        char[] chars = input.toCharArray();
+        //char[] chars = input.toCharArray();
 
         for (int i = 0; i < input.length(); i++) {
 

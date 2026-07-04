@@ -20,7 +20,7 @@ public class Anagram {
             return;
         }
 
-        int count[] = new int[26];
+        int[] count = new int[26];
 
         for(int i = 0; i<newWordTwo.length();i++){
 
