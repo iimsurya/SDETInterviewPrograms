@@ -1,9 +1,8 @@
-package interview;
+package PatternMatcher;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternProgramTwo {
+public class FindSumOfIntegers {
 
 //    Problem 2: Find the Product (Easy)
 //    text = "Price2Dollar5Amount10Cost3"

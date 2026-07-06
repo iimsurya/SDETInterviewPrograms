@@ -1,9 +1,9 @@
-package interview;
+package PatternMatcher;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PatternProgramOne {
+public class FindIntegers {
 
 //    Problem 1: Find the Sum (Easy)
 //    text = "Apple50Mango75Banana100Orange25"
