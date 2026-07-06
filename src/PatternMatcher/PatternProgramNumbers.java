@@ -1,4 +1,4 @@
-package interview;
+package PatternMatcher;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package interview;
+package PatternMatcher;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
