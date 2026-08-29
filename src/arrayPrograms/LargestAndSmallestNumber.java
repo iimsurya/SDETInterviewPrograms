@@ -24,9 +24,9 @@ public class LargestAndSmallestNumber {
 
             //for (int j = i+1; j <input.length ; j++) {
 
-            if (min > input[i])
+            if (input[i] < min)
                 min = input[i];
-            if (max < input[i])
+            if (input[i] > max)
                 max = input[i];
             //}
         }
