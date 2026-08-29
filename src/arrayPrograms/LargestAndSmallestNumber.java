@@ -22,13 +22,12 @@ public class LargestAndSmallestNumber {
 
         for (int i = 1; i < input.length; i++) {
 
-            //for (int j = i+1; j <input.length ; j++) {
 
             if (input[i] < min)
                 min = input[i];
             if (input[i] > max)
                 max = input[i];
-            //}
+
         }
 
         System.out.println(min);
