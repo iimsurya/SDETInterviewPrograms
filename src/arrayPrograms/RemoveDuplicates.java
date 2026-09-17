@@ -1,26 +1,22 @@
 package arrayPrograms;
 
-import java.util.ArrayList;
+import java.util.LinkedHashSet;
 
 public class RemoveDuplicates {
 
+    // This program removes duplicate numbers from an array while keeping the first occurrence order intact.
     public static void main(String[] args) {
 
         int[] input = {1,3,7,3,2,5,5,0,1};
 
-        //Create arraylist, iterate values using for loop -> using ! arraylist.contains find the non duplicate numbers
-        //and store them using .add in arraylist and print
 
-        ArrayList<Integer> outputList = new ArrayList<>();
+        LinkedHashSet<Integer> outputSet = new LinkedHashSet<>();
 
-        for (int i = 0; i < input.length; i++) {
+        for (int j : input) {
 
-            if(!outputList.contains(input[i])){
-
-                outputList.add(input[i]);
-            }
+            outputSet.add(j);
         }
-        System.out.println(outputList);
+        System.out.println(outputSet);
 
     }
 }

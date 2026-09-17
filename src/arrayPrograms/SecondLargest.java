@@ -22,7 +22,7 @@ public class SecondLargest {
 
         for (int num : input){
 
-            if(largest<num){
+            if(num > largest){
 
                 secondLargest = largest;
                 largest = num;
