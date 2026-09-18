@@ -1,7 +1,6 @@
 package arrayPrograms;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 public class SortArray {
 
@@ -16,11 +15,11 @@ public class SortArray {
 
             for (int j = i+1; j < input.length; j++) {
 
-                if(input[i]<input[j]){
+                if(input[i]<input[j]){ //1 < 2
 
-                    temp=input[i];
-                    input[i] = input[j];
-                    input[j] = temp;
+                    temp=input[i]; //temp = 1
+                    input[i] = input[j]; // 1 = 2
+                    input[j] = temp; // 2 = 1
                 }
             }
         }
